@@ -1,0 +1,66 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/index";
+exports.ids = ["pages/index"];
+exports.modules = {
+
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _config_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../config.json */ \"./config.json\");\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ \"styled-components\");\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nfunction HomePage() {\n    const estilosDaHomePage = {\n        backgroundColor: \"red\"\n    };\n    //console.log(config.playlists);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        style: estilosDaHomePage,\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Menu, {}, void 0, false, {\n                fileName: \"D:\\\\PROJETOS\\\\React-Alura\\\\Aluratube\\\\pages\\\\index.js\",\n                lineNumber: 13,\n                columnNumber: 9\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Header, {}, void 0, false, {\n                fileName: \"D:\\\\PROJETOS\\\\React-Alura\\\\Aluratube\\\\pages\\\\index.js\",\n                lineNumber: 14,\n                columnNumber: 9\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(TimeLine, {\n                playlists: _config_json__WEBPACK_IMPORTED_MODULE_1__.playlists\n            }, void 0, false, {\n                fileName: \"D:\\\\PROJETOS\\\\React-Alura\\\\Aluratube\\\\pages\\\\index.js\",\n                lineNumber: 15,\n                columnNumber: 9\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"D:\\\\PROJETOS\\\\React-Alura\\\\Aluratube\\\\pages\\\\index.js\",\n        lineNumber: 12,\n        columnNumber: 5\n    }, this);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (HomePage);\nfunction Menu() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: \"Menu\"\n    }, void 0, false, {\n        fileName: \"D:\\\\PROJETOS\\\\React-Alura\\\\Aluratube\\\\pages\\\\index.js\",\n        lineNumber: 27,\n        columnNumber: 9\n    }, this);\n}\nconst StyledHeader = styled_components__WEBPACK_IMPORTED_MODULE_2___default().div.withConfig({\n    displayName: \"pages__StyledHeader\",\n    componentId: \"sc-c705ad04-0\"\n})`\r\n    \timg{\r\n            width: 80px;\r\n            height: 80px;\r\n            border-radius: 50%;\r\n        }\r\n        .user-info{\r\n            display: flex;\r\n            align-items: center;\r\n            width: 100%;\r\n            padding: 16px 32px;\r\n            gap: 16px;\r\n        }\r\n`;\nfunction Header() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(StyledHeader, {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"section\", {\n            className: \".user-info\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                    src: `http://github.com/${_config_json__WEBPACK_IMPORTED_MODULE_1__.github}.png`\n                }, void 0, false, {\n                    fileName: \"D:\\\\PROJETOS\\\\React-Alura\\\\Aluratube\\\\pages\\\\index.js\",\n                    lineNumber: 55,\n                    columnNumber: 17\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                            children: _config_json__WEBPACK_IMPORTED_MODULE_1__.name\n                        }, void 0, false, {\n                            fileName: \"D:\\\\PROJETOS\\\\React-Alura\\\\Aluratube\\\\pages\\\\index.js\",\n                            lineNumber: 57,\n                            columnNumber: 21\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                            children: _config_json__WEBPACK_IMPORTED_MODULE_1__.job\n                        }, void 0, false, {\n                            fileName: \"D:\\\\PROJETOS\\\\React-Alura\\\\Aluratube\\\\pages\\\\index.js\",\n                            lineNumber: 58,\n                            columnNumber: 21\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"D:\\\\PROJETOS\\\\React-Alura\\\\Aluratube\\\\pages\\\\index.js\",\n                    lineNumber: 56,\n                    columnNumber: 17\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"D:\\\\PROJETOS\\\\React-Alura\\\\Aluratube\\\\pages\\\\index.js\",\n            lineNumber: 53,\n            columnNumber: 13\n        }, this)\n    }, void 0, false, {\n        fileName: \"D:\\\\PROJETOS\\\\React-Alura\\\\Aluratube\\\\pages\\\\index.js\",\n        lineNumber: 50,\n        columnNumber: 9\n    }, this);\n}\nfunction TimeLine(props) {\n    // console.log(\"Dentro do componente\", props.playlists);\n    const playlistNames = Object.keys(props.playlists);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: playlistNames.map((playlistName)=>{\n            const videos = props.playlists[playlistName];\n            console.log(videos);\n            console.log(playlistName);\n            return videos.map(()=>{\n                return {};\n            });\n        })\n    }, void 0, false, {\n        fileName: \"D:\\\\PROJETOS\\\\React-Alura\\\\Aluratube\\\\pages\\\\index.js\",\n        lineNumber: 73,\n        columnNumber: 9\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9pbmRleC5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFBQTtBQUFtQztBQUNJO0FBRXZDLFNBQVNFLFdBQVU7SUFFZixNQUFNQyxvQkFBb0I7UUFBQ0MsaUJBQWdCO0lBQUs7SUFFaEQsZ0NBQWdDO0lBRWhDLHFCQUVBLDhEQUFDQztRQUFJQyxPQUFPSDs7MEJBQ1IsOERBQUNJOzs7OzswQkFDRCw4REFBQ0M7Ozs7OzBCQUNELDhEQUFDQztnQkFBU0MsV0FBV1YsbURBQWdCOzs7Ozs7Ozs7Ozs7QUFNN0M7QUFDQSxpRUFBZUUsUUFBUUEsRUFBQTtBQUd2QixTQUFTSyxPQUFNO0lBQ1gscUJBQ0ksOERBQUNGO2tCQUFJOzs7Ozs7QUFJYjtBQUVBLE1BQU1NLGVBQWVWLHVFQUFVOzs7RUFBQSxDQUFDO0FBZWhDLFNBQVNPO0lBQ0wscUJBQ0k7a0JBR0k7WUFBU0ssV0FBVTs7O29CQUVWRSxLQUFLLENBQUM7Ozs7Ozs7OzRGQUVQLFFBQUNFOzZGQUFJakIsTUFBT2tCLElBQUk7Ozs7OztzQ0FDaEIsUUFBQ0M7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQVFyQjtBQUVBLFNBQVNWLFNBQVNZLEtBQUs7SUFDcEI7SUFDQyxNQUFNQyxnQkFBZ0JDO0lBRXRCLHFCQUNJLFFBQUNsQjtrQkFDSWlCO1lBQ0csTUFBTUssU0FBU047WUFDZk87WUFDQUEsUUFBUUMsR0FBRztZQUNYLE9BQU9GLE9BQU9GLEdBQUcsQ0FBQyxJQUFLO2dCQUNuQixPQUFNO1lBR1Y7UUFHSjs7Ozs7O0FBSVoiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9wYWdlcy9pbmRleC5qcz9iZWU3Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBjb25maWcgZnJvbSBcIi4uL2NvbmZpZy5qc29uXCJcclxuaW1wb3J0IHN0eWxlZCBmcm9tIFwic3R5bGVkLWNvbXBvbmVudHNcIjtcclxuXHJcbmZ1bmN0aW9uIEhvbWVQYWdlKCl7XHJcblxyXG4gICAgY29uc3QgZXN0aWxvc0RhSG9tZVBhZ2UgPSB7YmFja2dyb3VuZENvbG9yOlwicmVkXCJ9O1xyXG4gICAgXHJcbiAgICAvL2NvbnNvbGUubG9nKGNvbmZpZy5wbGF5bGlzdHMpO1xyXG5cclxuICAgIHJldHVybiAoXHJcbiAgICBcclxuICAgIDxkaXYgc3R5bGU9e2VzdGlsb3NEYUhvbWVQYWdlfT5cclxuICAgICAgICA8TWVudS8+XHJcbiAgICAgICAgPEhlYWRlci8+XHJcbiAgICAgICAgPFRpbWVMaW5lIHBsYXlsaXN0cz17Y29uZmlnLnBsYXlsaXN0c30vPlxyXG5cclxuICAgIDwvZGl2PlxyXG4gICAgXHJcbiAgICApO1xyXG4gICAgXHJcbn1cclxuZXhwb3J0IGRlZmF1bHQgSG9tZVBhZ2VcclxuXHJcblxyXG5mdW5jdGlvbiBNZW51KCl7XHJcbiAgICByZXR1cm4gKFxyXG4gICAgICAgIDxkaXY+XHJcbiAgICAgICAgICAgIE1lbnVcclxuICAgICAgICA8L2Rpdj5cclxuICAgICk7XHJcbn1cclxuXHJcbmNvbnN0IFN0eWxlZEhlYWRlciA9IHN0eWxlZC5kaXZgXHJcbiAgICBcdGltZ3tcclxuICAgICAgICAgICAgd2lkdGg6IDgwcHg7XHJcbiAgICAgICAgICAgIGhlaWdodDogODBweDtcclxuICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogNTAlO1xyXG4gICAgICAgIH1cclxuICAgICAgICAudXNlci1pbmZve1xyXG4gICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAgICAgICAgICB3aWR0aDogMTAwJTtcclxuICAgICAgICAgICAgcGFkZGluZzogMTZweCAzMnB4O1xyXG4gICAgICAgICAgICBnYXA6IDE2cHg7XHJcbiAgICAgICAgfVxyXG5gO1xyXG5cclxuZnVuY3Rpb24gSGVhZGVyKCl7XHJcbiAgICByZXR1cm4gKFxyXG4gICAgICAgIDxTdHlsZWRIZWFkZXI+XHJcbiAgICAgICAgICAgIHsvKjxpbWcgc3JjPVwiYmFubmVyXCIvPiovfVxyXG5cclxuICAgICAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPVwiLnVzZXItaW5mb1wiPlxyXG4gICAgICAgICAgICBcclxuICAgICAgICAgICAgICAgIDxpbWcgc3JjPXtgaHR0cDovL2dpdGh1Yi5jb20vJHtjb25maWcuZ2l0aHVifS5wbmdgfS8+XHJcbiAgICAgICAgICAgICAgICA8ZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgIDxoMj57Y29uZmlnLm5hbWV9PC9oMj5cclxuICAgICAgICAgICAgICAgICAgICA8cD57Y29uZmlnLmpvYn08L3A+XHJcbiAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgICBcclxuICAgICAgICAgICAgPC9zZWN0aW9uPlxyXG4gICAgICAgICAgICBcclxuICAgICAgICA8L1N0eWxlZEhlYWRlcj5cclxuICAgICk7XHJcbn1cclxuXHJcbmZ1bmN0aW9uIFRpbWVMaW5lKHByb3BzKXtcclxuICAgLy8gY29uc29sZS5sb2coXCJEZW50cm8gZG8gY29tcG9uZW50ZVwiLCBwcm9wcy5wbGF5bGlzdHMpO1xyXG4gICAgY29uc3QgcGxheWxpc3ROYW1lcyA9IE9iamVjdC5rZXlzKHByb3BzLnBsYXlsaXN0cyk7XHJcblxyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8ZGl2PlxyXG4gICAgICAgICAgICB7cGxheWxpc3ROYW1lcy5tYXAoKHBsYXlsaXN0TmFtZSkgPT4ge1xyXG4gICAgICAgICAgICAgICAgY29uc3QgdmlkZW9zID0gcHJvcHMucGxheWxpc3RzW3BsYXlsaXN0TmFtZV07XHJcbiAgICAgICAgICAgICAgICBjb25zb2xlLmxvZyh2aWRlb3MpO1xyXG4gICAgICAgICAgICAgICAgY29uc29sZS5sb2cocGxheWxpc3ROYW1lKTtcclxuICAgICAgICAgICAgICAgIHJldHVybiB2aWRlb3MubWFwKCgpID0+e1xyXG4gICAgICAgICAgICAgICAgICAgIHJldHVybntcclxuICAgICAgICAgICAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgICApXHJcbiAgICAgICAgICAgIH0pXHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICA8L2Rpdj5cclxuICAgICk7XHJcbn1cclxuXHJcblxyXG4iXSwibmFtZXMiOlsiY29uZmlnIiwic3R5bGVkIiwiSG9tZVBhZ2UiLCJlc3RpbG9zRGFIb21lUGFnZSIsImJhY2tncm91bmRDb2xvciIsImRpdiIsInN0eWxlIiwiTWVudSIsIkhlYWRlciIsIlRpbWVMaW5lIiwicGxheWxpc3RzIiwiU3R5bGVkSGVhZGVyIiwic2VjdGlvbiIsImNsYXNzTmFtZSIsImltZyIsInNyYyIsImdpdGh1YiIsImgyIiwibmFtZSIsInAiLCJqb2IiLCJwcm9wcyIsInBsYXlsaXN0TmFtZXMiLCJPYmplY3QiLCJrZXlzIiwibWFwIiwicGxheWxpc3ROYW1lIiwidmlkZW9zIiwiY29uc29sZSIsImxvZyJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/index.js\n");
+
+/***/ }),
+
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
+/***/ ((module) => {
+
+module.exports = require("react/jsx-dev-runtime");
+
+/***/ }),
+
+/***/ "styled-components":
+/*!************************************!*\
+  !*** external "styled-components" ***!
+  \************************************/
+/***/ ((module) => {
+
+module.exports = require("styled-components");
+
+/***/ }),
+
+/***/ "./config.json":
+/*!*********************!*\
+  !*** ./config.json ***!
+  \*********************/
+/***/ ((module) => {
+
+module.exports = JSON.parse('{"name":"Mario Souto (DevSoutinho)","job":"Lead Software Engineer","github":"omariosouto","playlists":{"jogos":[{"title":"Algum Titulo","url":"url","thumbnail":"thumbnail do video"}],"front-end":[{"title":"Algum Titulo","url":"url","thumbnail":"thumbnail do video"}]}}');
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = (__webpack_exec__("./pages/index.js"));
+module.exports = __webpack_exports__;
+
+})();

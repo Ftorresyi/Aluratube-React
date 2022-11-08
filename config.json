@@ -1,0 +1,29 @@
+{
+    "name":"Mario Souto (DevSoutinho)",
+    "job":"Lead Software Engineer",
+    "github": "omariosouto",
+    "playlists":{
+        "jogos":[
+            {
+                "title": "Algum Titulo",
+                "url": "url",
+                "thumbnail": "thumbnail do video"
+                
+            },
+            {
+                "title": "Segundo Titulo",
+                "url": "url",
+                "thumbnail": "thumbnail do video"
+                
+            }
+        ],
+        "front-end":[
+            {
+                "title": "Algum Titulo",
+                "url": "url",
+                "thumbnail": "thumbnail do video"
+                
+            }
+        ]
+    }
+}
