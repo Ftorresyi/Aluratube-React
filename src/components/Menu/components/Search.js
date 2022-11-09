@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components"
 
-const StyledSearch = styled.div`
+const StyledSearch = styled.div` 
   display: flex;
   flex-direction: row;
   border: 1px solid ${({ theme }) => theme.borderBase};
@@ -32,6 +32,7 @@ const StyledSearch = styled.div`
       height: 40px;
     }
   }
+  
 `;
 
 // Home 
@@ -39,7 +40,7 @@ const StyledSearch = styled.div`
 // Search
 // Informação sempre desce
 
-export default function Search({ valorDoFiltro, setValorDoFiltro }) {
+/* export default function Search({ valorDoFiltro, setValorDoFiltro }) {
     // const [valorDaBusca, setValorDaBusca] = React.useState("Teste");
     // console.log("Search", valorDaBusca)
     const valorDaBusca = valorDoFiltro;
@@ -53,4 +54,16 @@ export default function Search({ valorDoFiltro, setValorDoFiltro }) {
             </button>
         </StyledSearch>
     )
+} */
+
+export default function Search(){
+  //observar que nesse bloco de código é usado return(), ao invés de return{}
+  return (
+    <StyledSearch>
+          <input type="text"/>
+          <button>
+          🔎 
+          </button>
+        </StyledSearch>
+  );       
 }
